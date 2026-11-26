@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "3": "grapplin_whisk_hook"
+      },
+      "name": "default"
+    }
+  }
+}

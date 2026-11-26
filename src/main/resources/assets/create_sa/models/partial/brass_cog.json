@@ -1,0 +1,9 @@
+{
+  "parent": "create_sa:custom/brass_jetpack_propeller",
+  "textures": {
+    "all": "create_sa:block/brass_jetpack_propeller_2",
+    "particle": "create_sa:block/brass_jetpack_propeller_2",
+    "0": "create_sa:block/brass_jetpack_propeller_2"
+  },
+  "render_type": "cutout_mipped"
+}

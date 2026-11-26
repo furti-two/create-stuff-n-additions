@@ -1,0 +1,9 @@
+{
+  "parent": "create_sa:custom/netherite_jetpack_propeller",
+  "textures": {
+    "all": "create_sa:block/jetpack_propeller",
+    "particle": "create_sa:block/jetpack_propeller",
+    "1": "create_sa:block/jetpack_propeller"
+  },
+  "render_type": "cutout_mipped"
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "3": "portable_drill_cog"
+      },
+      "name": "default"
+    }
+  }
+}

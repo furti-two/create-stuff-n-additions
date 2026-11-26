@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "brass_drone"
+      },
+      "name": "default"
+    },
+    "andesite": {
+      "map": {
+        "1": "andesite_drone"
+      },
+      "name": "andesite"
+    }
+  }
+}

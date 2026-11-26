@@ -1,0 +1,9 @@
+{
+  "parent": "create_sa:custom/flywheel",
+  "textures": {
+    "all": "create_sa:block/flywheel",
+    "particle": "create_sa:block/flywheel",
+    "0": "create_sa:block/flywheel"
+  },
+  "render_type": "cutout_mipped"
+}

@@ -1,0 +1,47 @@
+{
+  "_fv": 73,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Pickaxe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "experience_pickaxe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "§eExperience Pickaxe",
+    "specialInformation": {
+      "fixedValue": [
+        "poulet"
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:CreateStuffAdditionsTab"
+      }
+    ],
+    "efficiency": 7.0,
+    "attackSpeed": 2.0,
+    "enchantability": 800,
+    "damageVsEntity": 5.0,
+    "usageCount": 270,
+    "glowCondition": {
+      "fixedValue": true
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:HeapOfExperience"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "IRON",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "ExperiencePickaxeLivingEntityIsHitWithTool"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "ExperiencePickaxeBlockDestroyedWithTool"
+    }
+  }
+}

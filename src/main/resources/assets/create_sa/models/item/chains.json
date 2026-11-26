@@ -1,0 +1,7 @@
+{
+  "parent": "create_sa:custom/chains",
+  "textures": {
+    "3": "create_sa:block/chains",
+    "particle": "create_sa:item/zinc_handle"
+  }
+}

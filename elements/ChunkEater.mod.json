@@ -1,0 +1,26 @@
+{
+  "_fv": 73,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Chunk Eater",
+    "supportedSlots": "mainhand",
+    "weight": 5,
+    "anvilCost": 1,
+    "maxLevel": 8,
+    "damageModifier": 0,
+    "incompatibleEnchantments": [
+      {
+        "value": "CUSTOM:Digging"
+      }
+    ],
+    "supportedItems": [
+      {
+        "value": "CUSTOM:PortableDrill"
+      }
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

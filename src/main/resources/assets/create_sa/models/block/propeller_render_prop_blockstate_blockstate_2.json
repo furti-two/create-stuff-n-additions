@@ -1,0 +1,9 @@
+{
+  "parent": "create_sa:custom/brass_jetpack_propeller",
+  "textures": {
+    "all": "create_sa:block/stone_cog",
+    "particle": "create_sa:block/stone_cog",
+    "0": "create_sa:block/stone_cog"
+  },
+  "render_type": "cutout_mipped"
+}

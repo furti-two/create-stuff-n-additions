@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "blockstate=0": {
+      "model": "create_sa:block/propeller_render_prop"
+    },
+    "blockstate=1": {
+      "model": "create_sa:block/propeller_render_prop_blockstate_blockstate_0"
+    },
+    "blockstate=2": {
+      "model": "create_sa:block/propeller_render_prop_blockstate_blockstate_1"
+    },
+    "blockstate=3": {
+      "model": "create_sa:block/propeller_render_prop_blockstate_blockstate_2"
+    },
+    "blockstate=4": {
+      "model": "create_sa:block/propeller_render_prop_blockstate_blockstate_3"
+    },
+    "blockstate=5": {
+      "model": "create_sa:block/propeller_render_prop_blockstate_blockstate_4"
+    },
+    "blockstate=6": {
+      "model": "create_sa:block/propeller_render_prop_blockstate_blockstate_5"
+    }
+  }
+}

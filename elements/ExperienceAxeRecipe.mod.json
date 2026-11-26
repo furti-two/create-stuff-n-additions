@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:HeapOfExperience"
+      },
+      {
+        "value": "CUSTOM:HeapOfExperience"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:HeapOfExperience"
+      },
+      {
+        "value": "CUSTOM:ZincHandle"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ZincHandle"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ExperienceAxe"
+    },
+    "name": "experience_axe_recipe",
+    "namespace": "mod"
+  }
+}

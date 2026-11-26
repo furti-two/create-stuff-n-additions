@@ -1,0 +1,9 @@
+{
+  "parent": "create_sa:custom/netherite_jetpack_back",
+  "textures": {
+    "all": "create_sa:block/netherite_jetpack_back",
+    "particle": "create_sa:block/netherite_jetpack_back",
+    "2": "create_sa:block/netherite_jetpack_back"
+  },
+  "render_type": "cutout_mipped"
+}

@@ -1,0 +1,28 @@
+{
+  "_fv": 55,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "Blocks.AIR"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "entity.blaze.shoot"
+    },
+    "igniteFire": false,
+    "power": 1.0,
+    "damage": 3.0,
+    "knockback": 0,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "onHitsBlock": {
+      "name": "FlamethrowerPrProjectileHitsBlock"
+    },
+    "onHitsEntity": {
+      "name": "FlamethrowerPrProjectileHitsLivingEntity"
+    },
+    "onFlyingTick": {
+      "name": "FlamethrowerPrWhileProjectileFlyingTick"
+    }
+  }
+}

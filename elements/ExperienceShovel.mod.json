@@ -1,0 +1,47 @@
+{
+  "_fv": 73,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Spade",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "experience_shovel",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "§eExperience Shovel",
+    "specialInformation": {
+      "fixedValue": [
+        "poulet"
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:CreateStuffAdditionsTab"
+      }
+    ],
+    "efficiency": 7.0,
+    "attackSpeed": 1.7,
+    "enchantability": 800,
+    "damageVsEntity": 4.0,
+    "usageCount": 270,
+    "glowCondition": {
+      "fixedValue": true
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:HeapOfExperience"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "IRON",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "ExperiencePickaxeLivingEntityIsHitWithTool"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "ExperiencePickaxeBlockDestroyedWithTool"
+    }
+  }
+}

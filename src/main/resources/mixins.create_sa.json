@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "net.furtitwo.createstuffadditions.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "NetheriteFireImuneMixin",
+    "AbstractClientPlayerMixin"
+  ],
+  "client": [],
+  "minVersion": "0.8"
+}

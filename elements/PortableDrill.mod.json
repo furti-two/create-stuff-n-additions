@@ -1,0 +1,47 @@
+{
+  "_fv": 73,
+  "_type": "tool",
+  "definition": {
+    "toolType": "MultiTool",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "brass_drill_head",
+    "customModelName": "portable_drill:default",
+    "blockingModelName": "Normal blocking",
+    "name": "§ePortable Drill",
+    "specialInformation": {
+      "fixedValue": [
+        "poulet"
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:CreateStuffAdditionsTab"
+      }
+    ],
+    "efficiency": 20.0,
+    "attackSpeed": 1.2000000000000002,
+    "enchantability": 0,
+    "damageVsEntity": 5.0,
+    "usageCount": 0,
+    "repairItems": [
+      {
+        "value": "Blocks.STONE#5"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "IRON",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInUseTick": {
+      "name": "PortableDrillToolInHandTick"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "PortableDrillBlockDestroyedWithTool"
+    }
+  }
+}

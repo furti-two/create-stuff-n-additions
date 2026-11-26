@@ -1,0 +1,12 @@
+{
+  "_fv": 73,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "DOWN",
+    "keyBindingName": "Decrease Drone Reach",
+    "keyBindingCategoryKey": "gameplay",
+    "onKeyPressed": {
+      "name": "DecreaseReachOnKeyPressed"
+    }
+  }
+}

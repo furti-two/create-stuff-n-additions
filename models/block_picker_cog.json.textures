@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "3": "block_picker_cog"
+      },
+      "name": "default"
+    }
+  }
+}

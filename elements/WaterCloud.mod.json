@@ -1,0 +1,23 @@
+{
+  "_fv": 73,
+  "_type": "particle",
+  "definition": {
+    "texture": "water_cloud",
+    "animate": true,
+    "frameDuration": 10,
+    "width": 0.5,
+    "height": 0.5,
+    "scale": {
+      "fixedValue": 1.2999999999999998
+    },
+    "speedFactor": 1.0,
+    "gravity": 0.1,
+    "maxAge": 28,
+    "maxAgeDiff": 3,
+    "angularVelocity": 0.0,
+    "angularAcceleration": 0.0,
+    "canCollide": true,
+    "alwaysShow": false,
+    "renderType": "TRANSLUCENT"
+  }
+}

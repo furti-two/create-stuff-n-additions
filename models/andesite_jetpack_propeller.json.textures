@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "andesite_jetpack_propeller"
+      },
+      "name": "default"
+    }
+  }
+}

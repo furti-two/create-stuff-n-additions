@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "brass_jetpack_propeller"
+      },
+      "name": "default"
+    },
+    "cog": {
+      "map": {
+        "0": "brass_jetpack_propeller_2"
+      },
+      "name": "cog"
+    },
+    "stone_cog": {
+      "map": {
+        "0": "stone_cog"
+      },
+      "name": "stone_cog"
+    }
+  }
+}

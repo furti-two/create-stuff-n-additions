@@ -1,0 +1,12 @@
+{
+  "_fv": 73,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "UP",
+    "keyBindingName": "Increase Drone Reach",
+    "keyBindingCategoryKey": "gameplay",
+    "onKeyPressed": {
+      "name": "IncreaseReachOnKeyPressed"
+    }
+  }
+}

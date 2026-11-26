@@ -1,0 +1,54 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="create_sa"
+version="2.1.0."
+displayName="Create Stuff 'N Additions"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/create-stuff-additions"
+logoFile="logo.png"
+credits="Credit : Furti Two, FuzeIII, To0pa, Create is the best Minecraft Mods (before Nether's Exoticism), the official discord link https://discord.gg/3AvrppcgG3"
+authors="Furti_Two"
+description="Create Stuff & Additions is a mod that uses the resources of Create to offer a new set of equipment, tools and gadget! Equipments that increase your physical abilities (Your Strength or Mining Speed) but also give you new ways to move, floating, bouncing and even flying! Depending on your type of equipment (brass, andesite or copper) you will need different fuels such as steam (using water and fuel), thermal energy (using fuel) or hydraulic energy (using water)! This mod also adds a lot of  recipes that make certain Minecraft items (Chainmail Armor, Coral, Netherrack, Crying Obsidian and Magma Cream...) craftable with the new ways added by Create such as haunting and filling!"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.create_sa]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.65,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.create_sa]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="AFTER"
+side="BOTH"
+
+
+[[dependencies.create_sa]]
+modId="create"
+type="optional"
+versionRange="[0,)"
+ordering="NONE"
+side="BOTH"
+
+
+# Optional: Sable physics sub-levels (moving structures). Compatibility goes through the bundled Sable Companion.
+[[dependencies.create_sa]]
+modId="sable"
+type="optional"
+versionRange="[2.0.0,)"
+ordering="NONE"
+side="BOTH"
+
+
+[[mixins]]
+    config="mixins.create_sa.json"
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration
