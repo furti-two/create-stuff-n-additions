@@ -3,8 +3,8 @@ plugins {
     id 'net.neoforged.moddev' version '1.0.21'
 }
 
-version = '1.0'
-base.archivesName = "modid"
+version = '2.1.5.a'
+base.archivesName = "create_sa"
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
 
