@@ -1,4 +1,4 @@
-package net.furtitwo.createstuffadditions.item.renderer;
+package net.furtitwo.createstuffadditions.client.renderer.item;
 
 import net.neoforged.neoforge.capabilities.Capabilities;
 

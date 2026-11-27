@@ -50,14 +50,6 @@ public class Modelbrass_exoskeleton<T extends Entity> extends EntityModel<T> {
 		return LayerDefinition.create(meshdefinition, 64, 64);
 	}
 
-	public void translateToHand(HumanoidArm arm, PoseStack pose) {
-		if (arm == HumanoidArm.RIGHT) {
-			this.rightArm.translateAndRotate(pose);
-		} else {
-			this.leftArm.translateAndRotate(pose);
-		}
-	}
-
 	@Override
 	public void renderToBuffer(PoseStack poseStack, VertexConsumer vertexConsumer, int packedLight, int packedOverlay, int rgb) {
 		body.render(poseStack, vertexConsumer, packedLight, packedOverlay, rgb);

@@ -1,4 +1,4 @@
-package net.furtitwo.createstuffadditions.equipment;
+package net.furtitwo.createstuffadditions.item;
 
 import net.furtitwo.createstuffadditions.compat.sable.SubLevels;
 import net.minecraft.core.BlockPos;
@@ -28,9 +28,9 @@ import net.furtitwo.createstuffadditions.fuel.FuelStorage;
 import net.furtitwo.createstuffadditions.fuel.FuelType;
 
 /**
- * Grapplin Whisk mechanic, ported from the 1.20.1 version (createsa_casser workspace):
- * right-click hooks the block in sight (75 blocks); while hooked and held, the player is pulled toward the hook by
- * {@link #PULL} per tick and fall damage is cancelled unless falling fast; right-click again lets go (Impact hit).
+ * Grapplin Whisk mechanic, right-click hooks the block in sight (75 blocks)
+ * while hooked and held, the player is pulled toward the hook by {@link #PULL} per tick and
+ * fall damage is canceled unless falling fast; right-click again lets go (Impact hit).
  * Hook state lives in the stack's custom data ({@code tagHooked}, {@code xPostion/yPostion/zPostion}), read by the
  * chain and item renderers, and only changes when hooking or letting go.
  */

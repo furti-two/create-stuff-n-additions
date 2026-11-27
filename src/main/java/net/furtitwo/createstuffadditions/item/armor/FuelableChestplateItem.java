@@ -1,4 +1,4 @@
-package net.furtitwo.createstuffadditions.equipment;
+package net.furtitwo.createstuffadditions.item.armor;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Holder;

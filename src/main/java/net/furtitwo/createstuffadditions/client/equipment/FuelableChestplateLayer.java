@@ -15,7 +15,7 @@ import net.minecraft.world.entity.Pose;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 
-import net.furtitwo.createstuffadditions.equipment.FuelableChestplateItem;
+import net.furtitwo.createstuffadditions.item.armor.FuelableChestplateItem;
 import net.furtitwo.createstuffadditions.fuel.FuelStorage;
 
 import net.createmod.catnip.animation.AnimationTickHolder;

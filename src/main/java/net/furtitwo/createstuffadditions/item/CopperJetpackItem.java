@@ -8,8 +8,8 @@ import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 
-import net.furtitwo.createstuffadditions.equipment.CSAArmorMaterials;
-import net.furtitwo.createstuffadditions.equipment.JetpackItem;
+import net.furtitwo.createstuffadditions.item.armor.CSAArmorMaterials;
+import net.furtitwo.createstuffadditions.item.armor.JetpackItem;
 import net.furtitwo.createstuffadditions.fuel.FuelType;
 import net.furtitwo.createstuffadditions.init.CreateSaModParticleTypes;
 

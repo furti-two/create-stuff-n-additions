@@ -10,7 +10,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.phys.Vec3;
 
-import net.furtitwo.createstuffadditions.equipment.ExoskeletonItem;
+import net.furtitwo.createstuffadditions.item.armor.ExoskeletonItem;
 
 /** Bare-handed hits from a player wearing a fuelled exoskeleton push the target along the player's look direction. */
 @EventBusSubscriber

@@ -10,7 +10,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.component.CustomData;
 
-import net.furtitwo.createstuffadditions.equipment.JetpackItem;
+import net.furtitwo.createstuffadditions.item.armor.JetpackItem;
 import net.furtitwo.createstuffadditions.init.CreateSaModItems;
 
 /** Effects of the mod key bindings, run by the key messages on the server and, through their pressAction, on the client. */

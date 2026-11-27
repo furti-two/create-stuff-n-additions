@@ -1,5 +1,6 @@
 package net.furtitwo.createstuffadditions.client.equipment;
 
+import net.furtitwo.createstuffadditions.client.model.*;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.phys.Vec3;
@@ -7,13 +8,6 @@ import net.minecraft.world.phys.Vec3;
 import net.furtitwo.createstuffadditions.client.equipment.ChestplateVisual.FirstPerson;
 import net.furtitwo.createstuffadditions.client.equipment.ChestplateVisual.Frame;
 import net.furtitwo.createstuffadditions.client.equipment.ChestplateVisual.Parts;
-import net.furtitwo.createstuffadditions.client.model.Modelandesite_exoskeleton;
-import net.furtitwo.createstuffadditions.client.model.Modelandesite_jetpack;
-import net.furtitwo.createstuffadditions.client.model.Modelbrass_exoskeleton;
-import net.furtitwo.createstuffadditions.client.model.Modelbrass_jetpack;
-import net.furtitwo.createstuffadditions.client.model.Modelcopper_exoskeleton;
-import net.furtitwo.createstuffadditions.client.model.Modelcopper_jetpack;
-import net.furtitwo.createstuffadditions.client.model.Modelnetherite_jetpack;
 import net.furtitwo.createstuffadditions.init.CreateSaModItems;
 
 import net.createmod.catnip.animation.AnimationTickHolder;
@@ -60,6 +54,10 @@ public final class ChestplateVisuals {
 			Modelcopper_exoskeleton<?> m = new Modelcopper_exoskeleton<>(set.bakeLayer(Modelcopper_exoskeleton.LAYER_LOCATION));
 			return new Parts(m.body, m.leftArm, m.rightArm);
 		};
+		Function<net.minecraft.client.model.geom.EntityModelSet, Parts> netheriteExoParts = set -> {
+			Modelnetherite_exoskeleton<?> m = new Modelnetherite_exoskeleton<>(set.bakeLayer(Modelnetherite_exoskeleton.LAYER_LOCATION));
+			return new Parts(m.body, m.rightArm, m.leftArm);
+		};
 
 		map.put(CreateSaModItems.BRASS_JETPACK_CHESTPLATE.get(), new ChestplateVisual(set -> {
 			Modelbrass_jetpack<?> m = new Modelbrass_jetpack<>(set.bakeLayer(Modelbrass_jetpack.LAYER_LOCATION));
@@ -81,6 +79,7 @@ public final class ChestplateVisuals {
 				new ChestplateVisual(andesiteExoParts, new FirstPerson(andesiteExoParts, tex("andesite_exoskeleton/andesite_exoskeleton_1")), ChestplateVisuals::andesiteExoskeleton));
 		map.put(CreateSaModItems.BRASS_EXOSKELETON_CHESTPLATE.get(), new ChestplateVisual(brassExoParts, new FirstPerson(brassExoParts, tex("brass_exoskeleton")), ChestplateVisuals::brassExoskeleton));
 		map.put(CreateSaModItems.COPPER_EXOSKELETON_CHESTPLATE.get(), new ChestplateVisual(copperExoParts, new FirstPerson(copperExoParts, tex("copper_exoskeleton")), ChestplateVisuals::copperExoskeleton));
+		map.put(CreateSaModItems.NETHERITE_EXOSKELETON_CHESTPLATE.get(), new ChestplateVisual(netheriteExoParts, new FirstPerson(netheriteExoParts, tex("netherite_exoskeleton")), ChestplateVisuals::netheriteExoskeleton));
 		return map;
 	}
 
@@ -88,7 +87,7 @@ public final class ChestplateVisuals {
 		return ResourceLocation.fromNamespaceAndPath("create_sa", "textures/entities/" + name + ".png");
 	}
 
-	// ---- back layouts ----
+	// Back Layouts
 
 	private static void brassJetpack(Frame f) {
 		float prop = f.flying() ? 20 : 0;
@@ -145,5 +144,9 @@ public final class ChestplateVisuals {
 
 	private static void copperExoskeleton(Frame f) {
 		f.part(STONE_COG, b -> b.translate(0, -1.5f * PX, 15 * PX).rotateX(-HALF_PI).center().rotateY(f.angle(f.spin())).uncenter());
+	}
+
+	private static void netheriteExoskeleton(Frame f) {
+		f.part(NETHERITE_FLYWHEEL, b -> b.translate(0, 14.5f * PX, 5 * PX).rotateX(HALF_PI).center().rotateY(f.angle(f.spin())).uncenter());
 	}
 }

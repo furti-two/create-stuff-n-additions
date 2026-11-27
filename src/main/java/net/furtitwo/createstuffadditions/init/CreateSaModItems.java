@@ -1,5 +1,6 @@
 package net.furtitwo.createstuffadditions.init;
 
+import net.furtitwo.createstuffadditions.item.*;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -12,25 +13,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 
 import net.furtitwo.createstuffadditions.CreateSaMod;
-import net.furtitwo.createstuffadditions.equipment.CSAArmorMaterials;
+import net.furtitwo.createstuffadditions.item.armor.CSAArmorMaterials;
 import net.furtitwo.createstuffadditions.fuel.FuelType;
-import net.furtitwo.createstuffadditions.item.AndesiteExoskeletonItem;
-import net.furtitwo.createstuffadditions.item.AndesiteJetpackItem;
-import net.furtitwo.createstuffadditions.item.BlockPickerItem;
-import net.furtitwo.createstuffadditions.item.BrassDroneItemItem;
-import net.furtitwo.createstuffadditions.item.BrassExoskeletonItem;
-import net.furtitwo.createstuffadditions.item.BrassJetpackItem;
-import net.furtitwo.createstuffadditions.item.ChainsItem;
-import net.furtitwo.createstuffadditions.item.CopperExoskeletonItem;
-import net.furtitwo.createstuffadditions.item.CopperJetpackItem;
-import net.furtitwo.createstuffadditions.item.CopperMagnetItem;
-import net.furtitwo.createstuffadditions.item.CreativeFillingTankItem;
-import net.furtitwo.createstuffadditions.item.DroneControllerItem;
-import net.furtitwo.createstuffadditions.item.FlamethrowerItem;
-import net.furtitwo.createstuffadditions.item.GrapplinWhiskItem;
-import net.furtitwo.createstuffadditions.item.HeapOfExperienceItem;
-import net.furtitwo.createstuffadditions.item.NetheriteJetpackItem;
-import net.furtitwo.createstuffadditions.item.PortableDrillItem;
 import net.furtitwo.createstuffadditions.item.armor.CSAArmorItem;
 import net.furtitwo.createstuffadditions.item.tank.FluidTankItem;
 import net.furtitwo.createstuffadditions.item.tool.CSAToolTier;
@@ -143,6 +127,7 @@ public class CreateSaModItems {
 	public static final DeferredItem<Item> BRASS_CUBE = block(CreateSaModBlocks.BRASS_CUBE);
 	public static final DeferredItem<Item> CHAINS = REGISTRY.register("chains", ChainsItem::new);
 	public static final DeferredItem<Item> NETHERITE_JETPACK_CHESTPLATE = REGISTRY.register("netherite_jetpack_chestplate", NetheriteJetpackItem::new);
+	public static final DeferredItem<Item> NETHERITE_EXOSKELETON_CHESTPLATE = REGISTRY.register("netherite_exoskeleton_chestplate", NetheriteExoskeletonItem::new);
 
 	// ---- helpers ----
 

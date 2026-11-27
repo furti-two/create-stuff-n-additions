@@ -1,5 +1,7 @@
 package net.furtitwo.createstuffadditions.logic.armor;
 
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.ItemTags;
 import net.neoforged.neoforge.event.entity.living.LivingEquipmentChangeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -43,7 +45,7 @@ public final class NetheriteFireImmunity {
 		} else if (slot == EquipmentSlot.CHEST) {
 			if (isNetheriteBacktank(to) && BacktankUtil.hasAirRemaining(to)) {
 				setBit(entity, slot);
-			} else if (entity.getItemBySlot(EquipmentSlot.CHEST).getItem() == CreateSaModItems.NETHERITE_JETPACK_CHESTPLATE.get()) {
+			} else if (entity.getItemBySlot(EquipmentSlot.CHEST).is(ItemTags.create(ResourceLocation.parse("create_sa:netherite_chest_substitute")))) {
 				setBit(entity, slot);
 			} else {
 				clearBit(entity, slot);

@@ -11,9 +11,9 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 
-import net.furtitwo.createstuffadditions.equipment.AnimatedArmorTextures;
-import net.furtitwo.createstuffadditions.equipment.CSAArmorMaterials;
-import net.furtitwo.createstuffadditions.equipment.JetpackItem;
+import net.furtitwo.createstuffadditions.item.armor.AnimatedArmorTextures;
+import net.furtitwo.createstuffadditions.item.armor.CSAArmorMaterials;
+import net.furtitwo.createstuffadditions.item.armor.JetpackItem;
 import net.furtitwo.createstuffadditions.fuel.FuelStorage;
 import net.furtitwo.createstuffadditions.fuel.FuelType;
 

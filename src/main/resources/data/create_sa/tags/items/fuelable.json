@@ -8,6 +8,7 @@
     "create_sa:flamethrower",
     "create_sa:portable_drill",
     "create_sa:grapplin_whisk",
-    "create_sa:netherite_jetpack_chestplate"
+    "create_sa:netherite_jetpack_chestplate",
+    "create_sa:netherite_exoskeleton_chestplate"
   ]
 }

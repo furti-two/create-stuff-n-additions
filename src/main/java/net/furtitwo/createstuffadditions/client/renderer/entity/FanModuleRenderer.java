@@ -1,5 +1,5 @@
 
-package net.furtitwo.createstuffadditions.client.renderer;
+package net.furtitwo.createstuffadditions.client.renderer.entity;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.entity.MobRenderer;

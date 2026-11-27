@@ -1,4 +1,4 @@
-package net.furtitwo.createstuffadditions.item.renderer;
+package net.furtitwo.createstuffadditions.client.renderer.item;
 
 import org.joml.Matrix4f;
 

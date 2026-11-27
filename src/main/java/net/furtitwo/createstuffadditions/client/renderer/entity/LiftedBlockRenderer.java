@@ -1,4 +1,4 @@
-package net.furtitwo.createstuffadditions.client.renderer;
+package net.furtitwo.createstuffadditions.client.renderer.entity;
 
 import org.jetbrains.annotations.NotNull;
 

@@ -89,5 +89,6 @@ public class CreateSaModTabs {
 				tabData.accept(CreateSaModItems.BLOCK_PICKER.get());
 				tabData.accept(CreateSaModBlocks.BRASS_CUBE.get().asItem());
 				tabData.accept(CreateSaModItems.NETHERITE_JETPACK_CHESTPLATE.get());
+				tabData.accept(CreateSaModItems.NETHERITE_EXOSKELETON_CHESTPLATE.get());
 			}).build());
 }

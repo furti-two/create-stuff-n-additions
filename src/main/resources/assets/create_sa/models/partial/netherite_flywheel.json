@@ -1,0 +1,9 @@
+{
+  "parent": "create_sa:custom/flywheel",
+  "textures": {
+    "all": "create_sa:block/netherite_flywheel",
+    "particle": "create_sa:block/netherite_flywheel",
+    "0": "create_sa:block/netherite_flywheel"
+  },
+  "render_type": "cutout_mipped"
+}

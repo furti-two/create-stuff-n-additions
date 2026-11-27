@@ -1,4 +1,4 @@
-package net.furtitwo.createstuffadditions.equipment;
+package net.furtitwo.createstuffadditions.item.armor;
 
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
@@ -12,7 +12,7 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-/** Client-only tooltip layout shared by the powered chestplates (kept out of the item class so servers never load Screen). */
+/** Client-only tooltip layout shared by the fuelable chestplates (kept out of the item class so servers never load Screen). */
 final class ChestplateTooltip {
 	private static final String GRAY = "§7";
 	private static final String WHITE = "§f";

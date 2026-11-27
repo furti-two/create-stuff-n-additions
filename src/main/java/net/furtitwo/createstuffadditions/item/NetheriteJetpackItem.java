@@ -11,8 +11,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.gameevent.GameEvent;
 import net.minecraft.world.phys.Vec3;
 
-import net.furtitwo.createstuffadditions.equipment.CSAArmorMaterials;
-import net.furtitwo.createstuffadditions.equipment.JetpackItem;
+import net.furtitwo.createstuffadditions.item.armor.CSAArmorMaterials;
+import net.furtitwo.createstuffadditions.item.armor.JetpackItem;
 import net.furtitwo.createstuffadditions.fuel.FuelType;
 
 /** Steam jetpack built for the Nether: boosted and able to glide in lava, fire resistant. */

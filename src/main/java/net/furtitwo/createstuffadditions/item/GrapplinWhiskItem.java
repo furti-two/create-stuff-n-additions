@@ -2,7 +2,6 @@
 package net.furtitwo.createstuffadditions.item;
 
 import net.furtitwo.createstuffadditions.fuel.FuelType;
-import net.furtitwo.createstuffadditions.equipment.GrapplinHook;
 import net.furtitwo.createstuffadditions.fuel.FuelableItem;
 import net.furtitwo.createstuffadditions.fuel.FuelStorage;
 
@@ -33,7 +32,7 @@ import net.minecraft.client.Minecraft;
 
 import net.furtitwo.createstuffadditions.util.TooltipLines;
 import net.furtitwo.createstuffadditions.network.CreateSaModVariables;
-import net.furtitwo.createstuffadditions.item.renderer.GrapplinWhiskItemRenderer;
+import net.furtitwo.createstuffadditions.client.renderer.item.GrapplinWhiskItemRenderer;
 
 import javax.annotation.Nullable;
 

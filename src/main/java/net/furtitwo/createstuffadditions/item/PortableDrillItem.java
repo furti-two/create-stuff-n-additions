@@ -39,7 +39,7 @@ import net.minecraft.client.gui.screens.Screen;
 import net.furtitwo.createstuffadditions.logic.tool.PortableDrill;
 import net.furtitwo.createstuffadditions.util.TooltipLines;
 import net.furtitwo.createstuffadditions.network.CreateSaModVariables;
-import net.furtitwo.createstuffadditions.item.renderer.PortableDrillItemRenderer;
+import net.furtitwo.createstuffadditions.client.renderer.item.PortableDrillItemRenderer;
 import net.furtitwo.createstuffadditions.init.CreateSaModItems;
 
 import java.util.function.Consumer;

@@ -1,4 +1,4 @@
-package net.furtitwo.createstuffadditions.equipment;
+package net.furtitwo.createstuffadditions.item.armor;
 
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -38,6 +38,7 @@ public final class CSAArmorMaterials {
 	public static Holder<ArmorMaterial> ANDESITE_EXOSKELETON;
 	public static Holder<ArmorMaterial> BRASS_EXOSKELETON;
 	public static Holder<ArmorMaterial> COPPER_EXOSKELETON;
+	public static Holder<ArmorMaterial> NETHERITE_EXOSKELETON;
 	public static Holder<ArmorMaterial> BRASS;
 	public static Holder<ArmorMaterial> COPPER;
 	public static Holder<ArmorMaterial> ZINC;
@@ -58,6 +59,7 @@ public final class CSAArmorMaterials {
 			ANDESITE_EXOSKELETON = make(helper, "andesite_exoskeleton", 7, andesite, 0f, 0f);
 			BRASS_EXOSKELETON = make(helper, "brass_exoskeleton", 8, () -> Ingredient.of(ItemTags.create(ResourceLocation.parse("forge:ingots/brass"))), 0f, 0.1f);
 			COPPER_EXOSKELETON = make(helper, "copper_exoskeleton", 6, copper, 0f, 0f);
+			NETHERITE_EXOSKELETON = make(helper, "netherite_exoskeleton", 9, () -> Ingredient.of(Items.NETHERITE_INGOT), 3f, 0.1f);
 			// Plain armour sets, textured by their own layer (textures/models/armor/<name>_layer_1/2.png)
 			BRASS = make(helper, "brass", 2, 7, SoundEvents.ARMOR_EQUIP_GOLD, () -> Ingredient.of(tag("c:ingots/brass")), "create_sa:brass", 0f, 0.1f);
 			COPPER = make(helper, "copper", 1, 6, SoundEvents.ARMOR_EQUIP_IRON, () -> Ingredient.of(tag("c:ingots/copper")), "create_sa:copper", 0f, 0f);

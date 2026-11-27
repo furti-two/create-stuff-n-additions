@@ -38,7 +38,7 @@ import net.minecraft.client.Minecraft;
 import net.furtitwo.createstuffadditions.util.TooltipLines;
 import net.furtitwo.createstuffadditions.logic.gadget.BlockPicker;
 import net.furtitwo.createstuffadditions.network.CreateSaModVariables;
-import net.furtitwo.createstuffadditions.item.renderer.BlockPickerItemRenderer;
+import net.furtitwo.createstuffadditions.client.renderer.item.BlockPickerItemRenderer;
 
 import javax.annotation.Nullable;
 

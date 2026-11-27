@@ -15,6 +15,7 @@ public final class CreateSAPartialModels {
 	public static final PartialModel ANDESITE_JETPACK_PROPELLER = partial("andesite_jetpack_propeller");
 	public static final PartialModel STONE_COG = partial("stone_cog");
 	public static final PartialModel FLYWHEEL = partial("flywheel");
+	public static final PartialModel NETHERITE_FLYWHEEL = partial("netherite_flywheel");
 	public static final PartialModel NETHERITE_JETPACK_BACK = partial("netherite_jetpack_back");
 	public static final PartialModel NETHERITE_JETPACK_PROPELLER = partial("netherite_jetpack_propeller");
 

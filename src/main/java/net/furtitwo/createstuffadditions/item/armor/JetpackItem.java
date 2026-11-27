@@ -1,4 +1,4 @@
-package net.furtitwo.createstuffadditions.equipment;
+package net.furtitwo.createstuffadditions.item.armor;
 
 import net.furtitwo.createstuffadditions.compat.sable.SubLevels;
 import net.minecraft.core.Holder;

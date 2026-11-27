@@ -11,13 +11,13 @@ import net.neoforged.api.distmarker.Dist;
 
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
-import net.furtitwo.createstuffadditions.client.renderer.VaultModuleRenderer;
-import net.furtitwo.createstuffadditions.client.renderer.MagnetModuleRenderer;
-import net.furtitwo.createstuffadditions.client.renderer.LiftedBlockRenderer;
-import net.furtitwo.createstuffadditions.client.renderer.FanModuleRenderer;
-import net.furtitwo.createstuffadditions.client.renderer.DrillModuleRenderer;
-import net.furtitwo.createstuffadditions.client.renderer.BrassDroneRenderer;
-import net.furtitwo.createstuffadditions.client.renderer.BrassCubeRRenderer;
+import net.furtitwo.createstuffadditions.client.renderer.entity.VaultModuleRenderer;
+import net.furtitwo.createstuffadditions.client.renderer.entity.MagnetModuleRenderer;
+import net.furtitwo.createstuffadditions.client.renderer.entity.LiftedBlockRenderer;
+import net.furtitwo.createstuffadditions.client.renderer.entity.FanModuleRenderer;
+import net.furtitwo.createstuffadditions.client.renderer.entity.DrillModuleRenderer;
+import net.furtitwo.createstuffadditions.client.renderer.entity.BrassDroneRenderer;
+import net.furtitwo.createstuffadditions.client.renderer.entity.BrassCubeRRenderer;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class CreateSaModEntityRenderers {
